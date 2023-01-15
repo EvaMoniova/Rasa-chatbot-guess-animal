@@ -1,0 +1,34 @@
+version: "3.1"
+
+stories:
+
+- story: start_game
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_startgame
+  - action: action_listen
+  - action: action_guessing
+
+- story: colour
+  steps:
+  - intent: ask_colour
+  - action: action_colour_ask
+  - action: action_listen
+
+- story: bodyparts
+  steps:
+  - intent: ask_bodyparts
+  - action: action_bodyparts_ask
+  - action: action_listen
+
+- story: behavioral_patterns
+  steps:
+  - intent: ask_behaviour
+  - action: action_behaviour_ask
+  - action: action_listen
+
+- story: guess_animal
+  steps:
+  - intent: ask_animal
+  - action: action_animal_ask

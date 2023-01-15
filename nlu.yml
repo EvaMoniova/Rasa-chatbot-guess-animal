@@ -1,0 +1,86 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who are you?
+
+
+- intent: ask_colour
+  examples: |
+    - is it [white](colour)?
+    - is it [grey](colour)?
+    - is it [black](colour)?
+    - is it [yellow](colour)?
+    - is it [brown](colour)?
+    - is it [red](colour)?
+    - is it [pink](colour)?
+    - is it [orange](colour)?
+    - is it [blue](colour)?
+    - is it [green](colour)?
+    - is the animal [white](colour)?
+    - is the animal [grey](colour)?
+    - is the animal [black](colour)?
+    - is the animal [yellow](colour)?
+    - is the animal [brown](colour)?
+    - is the animal [red](colour)?
+    - is the animal [pink](colour)?
+    - is the animal [orange](colour)?
+    - is the animal [blue](colour)?
+    - is the animal [green](colour)?
+
+- intent: ask_bodyparts
+  examples: |
+    - does it have [legs](bodyparts)?
+    - does it have [fin](bodyparts)?
+    - does it have [wings](bodyparts)?
+    - does it have [horns](bodyparts)?
+    - does it have [fur](bodyparts)?
+    - does it have [feathers](bodyparts)?
+    - does it have [scales](bodyparts)?
+    - does it have [tail](bodyparts)?
+    - does it have [hooves](bodyparts)?
+    - does it have [trunk](bodyparts)?
+    - does it have [beak](bodyparts)?
+    - does it have [sting](bodyparts)?
+
+- intent: ask_behaviour
+  examples: |
+    - does it [jump](behaviour)?
+    - does it [swim](behaviour)?
+    - does it [fly](behaviour)?
+    - does it [run](behaviour)?
+    - does it [crawl](behaviour)?
+    - does it [roar](behaviour)?
+    - does it [bark](behaviour)?
+    - does it [meow](behaviour)?
+    - does it [buzz](behaviour)?
+   
+- intent: ask_animal
+  examples: |
+    - is it a [snake](guessed_animal)?
+    - is it a [shark](guessed_animal)?
+    - is it a [tiger](guessed_animal)?
+    - is it a [frog](guessed_animal)?
+    - is it a [wasp](guessed_animal)?
